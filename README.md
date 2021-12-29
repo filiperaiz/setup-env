@@ -1,5 +1,9 @@
 # Configurando o terminal para seu ambiente de desenvolvimento 
 
+### ⚙️ Uma dica se você utiliza windows, é instalar o WSL2, segue abaixo um tutorial detalhado de como fazer isso:
+https://youtu.be/hd6lxt5iVsg
+
+#
 # Instalando Zsh
 
 Antes de conseguirmos iniciar com qualquer configuração precisamos instalar o Zsh.
