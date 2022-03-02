@@ -1,7 +1,7 @@
 # Configurando o terminal para seu ambiente de desenvolvimento 
 
 ### ⚙️ Uma dica se você utiliza windows, é instalar o WSL2, segue abaixo um tutorial detalhado de como fazer isso:
-https://youtu.be/hd6lxt5iVsg
+https://www.youtube.com/playlist?list=PLlAbYrWSYTiOpefWtd6uvwgKT1R-94Zfd
 
 #
 # Instalando Zsh
@@ -41,14 +41,14 @@ code ~/.zshrc
 ```
 2. Alterar a variavel do tema:
 ```
-ZSH_THEME="af-magic"
+ZSH_THEME="avit"
 ```
 3. Reiniciar o arquivo de configuração
 ```
 source .zshrc
 ```
 
-![alt text](https://user-images.githubusercontent.com/49100982/108254742-76e41d80-716c-11eb-89b0-09445ce76ff0.jpg)
+![alt text](https://user-images.githubusercontent.com/49100982/108254755-79df0e00-716c-11eb-9069-da947bd4a3dc.jpg)
 
 #### Existem vários outros temas e podem ser visto no link abaixo: 
 https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
@@ -132,6 +132,19 @@ git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh-nvm
 - Ativar o plugin
 ```
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+```
+- Para não ficar pedindo ativação toda vez que abrir o terminal, 
+1. Abrir o arquivo de configuração: 
+```
+code ~/.zshrc
+```
+2. Na última linha cole o seguinte código
+```
+source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+```
+3. Reiniciar o arquivo de configuração
+```
+source .zshrc
 ```
 
 Para mais detalhes de como usar o NVM, segue um tutorial:
