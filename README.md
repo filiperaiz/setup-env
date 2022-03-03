@@ -32,7 +32,7 @@ Agora reiniciando seu terminal você deve ter algo diferente do convencional, pa
 ![alt text](https://ohmyz.sh/img/themes/nebirhos.jpg)
 
 # Instalando Temas (opicional)
-Agora vamos instalar o tema **af-magic** que vai modificar um pouco as informações que são exibidas no terminal. Para isso precisamos seguir os passos abaixo
+Agora vamos instalar um tema que vai modificar um pouco as informações que são exibidas no terminal. Para isso precisamos seguir os passos abaixo
 
 Dentro do arquivo ~/.zshrc vamos alterar a variável ZSH_THEME ficando dessa forma:
 1. Abrir o arquivo de configuração: 
