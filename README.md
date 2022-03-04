@@ -60,7 +60,6 @@ Para instalar plugins precisamos configurar o ZInit, ferramenta que facilita a i
 ```
 sh -c "$(curl -fsSL https://git.io/zinit-install)"
 ```
-Após essa instalação, vamos abrir o arquivo **code ~/.zshrc** novamente e 
 
 1. Abrir o arquivo de configuração: 
 ```
