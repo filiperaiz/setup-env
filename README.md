@@ -45,7 +45,7 @@ ZSH_THEME="avit"
 ```
 3. Reiniciar o arquivo de configuração
 ```
-source .zshrc
+source ~/.zshrc
 ```
 
 ![alt text](https://user-images.githubusercontent.com/49100982/108254755-79df0e00-716c-11eb-9069-da947bd4a3dc.jpg)
@@ -58,7 +58,7 @@ https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 Para instalar plugins precisamos configurar o ZInit, ferramenta que facilita a instalação e remoção de plugins no Zsh.
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+sh -c "$(curl -fsSL https://git.io/zinit-install)"
 
 ```
 Após essa instalação, vamos abrir o arquivo **~/.zshrc** novamente e abaixo da linha **### End of ZInit's installer chunk** que foi adicionada automaticamente no arquivo, adicionamos:
@@ -96,7 +96,7 @@ plugins=(git ssh-agent ...)
 ```
 -Reiniciar o arquivo de configuração
 ```
-source .zshrc
+source ~/.zshrc
 ```
 4 - Copiar a chave ssh
 ```
@@ -119,7 +119,7 @@ alias gitconfig="code ~/.gitconfig"
 ```
 3. Reiniciar o arquivo de configuração
 ```
-source .zshrc
+source ~/.zshrc
 ```
 
 # Configurando o NVM e instalando o NodeJS
@@ -144,7 +144,7 @@ source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 ```
 3. Reiniciar o arquivo de configuração
 ```
-source .zshrc
+source ~/.zshrc
 ```
 
 Para mais detalhes de como usar o NVM, segue um tutorial:
