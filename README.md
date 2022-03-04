@@ -59,9 +59,15 @@ Para instalar plugins precisamos configurar o ZInit, ferramenta que facilita a i
 
 ```
 sh -c "$(curl -fsSL https://git.io/zinit-install)"
-
 ```
-Após essa instalação, vamos abrir o arquivo **~/.zshrc** novamente e abaixo da linha **### End of ZInit's installer chunk** que foi adicionada automaticamente no arquivo, adicionamos:
+Após essa instalação, vamos abrir o arquivo **code ~/.zshrc** novamente e 
+
+1. Abrir o arquivo de configuração: 
+```
+code ~/.zshrc
+```
+
+2. Abaixo da linha **### End of ZInit's installer chunk** que foi adicionada automaticamente no arquivo, adicionamos:
 ```
 zinit light zdharma/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
@@ -72,9 +78,9 @@ zinit light zsh-users/zsh-completions
 - **zsh-users/zsh-autosuggestions**: Sugere comandos baseados no histórico de execução conforme você vai digitando;
 - **zsh-users/zsh-completions**: Adiciona milhares de completitions para ferramentas comuns como Yarn, Homebrew, NVM, Node, etc, para você precisar apenas apertar TAB para completar comandos;
 
-Reiniciar o arquivo de configuração
+3. Reiniciar o arquivo de configuração
 ```
-source .zshrc
+source ~/.zshrc
 ```
 
 ou reiniciar o terminal.
