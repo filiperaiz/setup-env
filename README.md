@@ -58,7 +58,7 @@ https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 Para instalar plugins precisamos configurar o ZInit, ferramenta que facilita a instalação e remoção de plugins no Zsh.
 
 ```
-sh -c "$(curl -fsSL https://git.io/zinit-install)"
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 ```
 
 1. Abrir o arquivo de configuração: 
