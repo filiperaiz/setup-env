@@ -107,7 +107,7 @@ source ~/.zshrc
 ```
 cd .ssh
 ls -ls
-more id_rsa.pub
+more id_ed25519.pub
 ```
 
 # Criando um Alias
