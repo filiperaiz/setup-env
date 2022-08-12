@@ -1,6 +1,15 @@
 # Configurando o terminal para seu ambiente de desenvolvimento 
 
-### ⚙️ Uma dica se você utiliza windows, é instalar o WSL2, segue abaixo um tutorial detalhado de como fazer isso:
+### ⚙️ Uma dica se você utiliza windows, é instalar o WSL2, 
+
+- Abra o PowerShell (ou Windows Prompt de Comando) e insira:
+```
+wsl --install
+```
+- Documentação oficial:
+https://docs.microsoft.com/pt-br/windows/wsl/setup/environment#set-up-your-linux-username-and-password
+
+- Tutorial detalhado de como fazer isso:
 https://www.youtube.com/playlist?list=PLlAbYrWSYTiOpefWtd6uvwgKT1R-94Zfd
 
 #
@@ -50,8 +59,7 @@ source ~/.zshrc
 
 ![alt text](https://user-images.githubusercontent.com/49100982/108254755-79df0e00-716c-11eb-9069-da947bd4a3dc.jpg)
 
-#### Existem vários outros temas e podem ser visto no link abaixo: 
-https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+- Existem vários outros temas e podem ser visto no link ao lado: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 
 # Instalando Plugins do ZSH
@@ -113,6 +121,7 @@ more id_ed25519.pub
 # Criando um Alias
 Criação de alis [e interessante para nos ajudar e facilitar acessar pastas e arquivos.
 Dentro do arquivo ~/.zshrc vamos buscar pela palavra **alias** e adicionar novos abaixo dos ja existentes, ficando dessa forma:
+
 1. Abrir o arquivo de configuração: 
 ```
 code ~/.zshrc
@@ -130,23 +139,15 @@ source ~/.zshrc
 # Configurando o NVM e instalando o NodeJS
 Com o zsh configurado, já existe um pligin que vai facilitar a configuração do NVM
 
-- Clone este repositório em algum lugar (por exemplo) ~/.zsh-nvm
+1. Clone este repositório em algum lugar (por exemplo) ~/.zsh-nvm
 ```
-git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh-nvm
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 ```
-- Ativar o plugin
+2. Adicionar 'zsh-nvm' aos plugins
 ```
-source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+plugins+=(zsh-nvm)
 ```
-- Para não ficar pedindo ativação toda vez que abrir o terminal, 
-1. Abrir o arquivo de configuração: 
-```
-code ~/.zshrc
-```
-2. Na última linha cole o seguinte código
-```
-source ~/.zsh-nvm/zsh-nvm.plugin.zsh
-```
+
 3. Reiniciar o arquivo de configuração
 ```
 source ~/.zshrc
